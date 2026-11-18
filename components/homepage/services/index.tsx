@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Heading from 'components/heading';
-import { cleaning, moving, mounting, plumbing, repairs, yard,electrical, carpentry, painting, flooring } from "@public"
+import {plumber, electrician, appliance repair, home cleaning, carpenter} from "@public"
 
 import 'swiper/css';
 
 const Services = () => {
   const services = [
-    { img: cleaning, title: 'Plumber', requests: '500' },
-    { img: moving, title: 'Electrician', requests: '450' },
-    { img: yard, title: 'Appliance Repair', requests: '400' },
-    { img: plumbing, title: 'Home Cleaning', requests: '500' },
-    { img: mounting, title: 'Carpenter', requests: '400' },
+    { img: plumber, title: 'Plumber', requests: '500' },
+    { img: electrician, title: 'Electrician', requests: '450' },
+    { img: appliance repair, title: 'Appliance Repair', requests: '400' },
+    { img: home cleaning, title: 'Home Cleaning', requests: '500' },
+    { img: carpenter, title: 'Carpenter', requests: '400' },
   ]
 
   return (

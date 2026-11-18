@@ -8,7 +8,7 @@ const Heading: React.FC<HeadingProps> = ({heading, text, forServices}) => {
 
       { forServices && (
         <h3 className='absolute bottom-[-30px] right-3 sm:right-8 xl:right-0 md:bottom-0 font-rw text-[26px] xls:text-[32px] font-bold text-[rgba(43,78,140,0.5)]'>
-          10 options
+          5 options
         </h3>
       ) }
     </div>
