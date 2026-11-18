@@ -7,16 +7,11 @@ import 'swiper/css';
 
 const Services = () => {
   const services = [
-    { img: cleaning, title: 'CLeaning', requests: '500' },
-    { img: moving, title: 'Help Moving', requests: '450' },
-    { img: yard, title: 'Yard Work', requests: '400' },
-    { img: plumbing, title: 'Plumbing Help', requests: '500' },
-    { img: mounting, title: 'Mounting', requests: '400' },
-    { img: repairs, title: 'Home repairs', requests: '300' },
-    { img: electrical, title: 'Electrical work', requests: '400' },
-    { img: carpentry, title: 'Carpentry', requests: '500' },
-    { img: painting, title: 'Painting', requests: '400' },
-    { img: flooring, title: 'Flooring', requests: '300' },
+    { img: cleaning, title: 'Plumber', requests: '500' },
+    { img: moving, title: 'Electrician', requests: '450' },
+    { img: yard, title: 'Appliance Repair', requests: '400' },
+    { img: plumbing, title: 'Home Cleaning', requests: '500' },
+    { img: mounting, title: 'Carpenter', requests: '400' },
   ]
 
   return (
