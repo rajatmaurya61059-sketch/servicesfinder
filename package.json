@@ -2,7 +2,7 @@
   "name": "Help",
   "private": true,
   "scripts": {
-    "de": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
